@@ -1,0 +1,317 @@
+/*Estilo para Tablet*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+/*qualidade - home*/
+.qualidade:after {
+	content: "";
+	width: 551px;
+	height: 155px;
+	display: block;
+	background: url("../img/linhas.svg") no-repeat center;
+	position: absolute;
+	top: 203px;
+	right: 108px;
+	z-index: -1;
+}
+
+.qualidade_lista li{
+	padding: 0 20px;
+}
+
+/*Produtos*/
+
+.produto_item h2 {
+	top: -170px;
+	margin-right: 20px;
+	margin-bottom: -56px;
+}
+
+.produto_item .pass1 {
+	margin-right: -10px;
+	margin-left: 10px;
+}
+
+.produto_info {
+	margin-left: -10px;
+}
+
+.produto_item .pass {
+	margin-left: 10px;
+}
+
+.produto_info p {
+	color: #fff;
+	font-size: 18px;
+	line-height: 25px;
+	height: 185px;
+	padding: 20px 30px;
+}
+
+.produto_info ul li {
+	background: #fec63e;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: bold;
+	float: left;
+	text-align: center;
+	width: 181px;
+	height: 49px;
+	padding-top: 10px;
+
+}
+
+/*sobre*/
+.subtitulo {
+	margin-bottom: 15px;
+	text-align: center;
+	padding-top: 450px;
+	display: block;
+	text-align: center;
+}
+
+.subtitulo:after {
+	content:"";
+	width: 60px;
+	height: 3px;
+	background: #011;
+	margin: 8px;
+	margin-left: 350px;
+	display: block;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.qualidade:after {
+	content: "";
+	width: 551px;
+	height: 155px;
+	display: block;
+	background: url("../img/linhas.svg") no-repeat center;
+	position: absolute;
+	top: 853px;
+	right: 105.5px;
+	z-index: -1;
+}
+
+}/*Final do Estilo para tablets*/
+
+/*Estilo para Smartphone*/
+@media only screen and (max-width: 787px) {
+
+/*Header*/
+.header {
+	position: relative;
+	padding-bottom: 0;
+
+}
+
+.header img {
+	margin: 0 auto 20px auto;
+}
+
+.header_menu {
+	text-align: center;
+}
+
+.header_menu ul li {
+	margin: 2px;
+}
+
+.header_menu ul li a{
+	border: 4px solid #000;
+	width: 120px;
+	display: block;
+	float: left;
+
+}
+
+.header_menu ul li a:hover {
+	border-color: #fec63e;
+}
+
+.header_menu ul li a.menu_ativo {
+	border-color: #fff;
+}
+
+/*Introdução*/
+
+.introducao h1{
+	font-size: 36px;
+}
+
+.introducao {
+	margin-top: 0;
+	padding-top: 40px;
+}
+
+/*Introdução interna*/
+.introducao_interna {
+	margin-top: -20px;
+}
+
+/*Sobre*/
+
+.missao_sobre {
+	padding-left: 100px; 
+	padding-top: 10px; 
+}
+
+.missao_sobre h2 p {
+	font-size: 14px;
+	line-height: 25px;
+	margin-bottom: 1em;
+	padding-right: 0px;
+}
+
+.missao_sobre ul li{
+	font-family: Georgia, "Times New Roman", serif;
+	line-height: 30px;
+	font-size: 14px;
+
+}
+
+.subtitulo {
+	padding-top: 0;
+}
+
+.subtitulo:after{
+	margin-left: 120px;
+	margin-bottom: 0;
+}
+
+/*produtos*/
+.produtos_lista {
+	padding-bottom: 10px;
+}
+
+
+/*Call*/
+.call {
+	padding-bottom: 10px;
+}
+
+.qualidade {
+	padding: 20px 0;
+	text-align: center;
+}
+
+
+.qualidade:after {
+	display: none;
+}
+
+.qualidade img {
+	margin-bottom: -60px;
+}
+
+.qualidade_lista li{
+	text-align: center;
+	padding: 0 10px;
+}
+
+/*Sobre*/
+
+.missao_sobre {
+	padding-left: 100px; 
+	padding-top: 10px; 
+}
+
+.missao_sobre h2 p {
+	font-size: 14px;
+	line-height: 25px;
+	margin-bottom: 1em;
+	padding-right: 0px;
+}
+
+.missao_sobre ul li{
+	font-family: Georgia, "Times New Roman", serif;
+	line-height: 30px;
+	font-size: 14px;
+
+}
+
+.subtitulo {
+	padding-top: 0;
+}
+
+.subtitulo:after{
+	margin-left: 120px;
+	margin-bottom: 0;
+}
+
+/*Produtos*/
+
+.produto_item h2 {
+	top: -120px;
+	right: -50px;
+	margin-bottom: -64px;
+}
+
+.produto_icone {
+	padding: 45px 0;
+	padding-left: -30px;
+}
+
+.produto_icone img {
+	margin: 0 auto;
+}
+
+.produto_item .pass1 {
+	margin-right: -10px;
+	margin-left: 10px;
+}
+
+.produto_info {
+	margin-left: -10px;
+}
+
+.produto_item .pass {
+	margin-left: 10px;
+}
+
+.produto_info p {
+	color: #fff;
+	font-size: 18px;
+	line-height: 25px;
+	height: auto;
+	padding: 20px 30px;
+}
+
+.produto_info ul li {
+	width: 149px;
+	height: 49px;
+	padding-top: 15px;
+	font-size: 14px;
+	line-height: 20px;
+
+}
+
+.form {
+	padding:0;
+}
+
+.orcamento_dados ul {
+	padding-right: 0;
+}
+
+
+.orcamento_dados ul li {
+	padding: 2px;
+}
+
+
+/*portfolio*/
+
+.interna_portfolio h1 p {
+	margin: 60px;
+}
+
+/*Contato*/
+
+.contato_form {
+	padding-right: 0;
+}
+
+} /*Final do estilo para smartphone*/
+
